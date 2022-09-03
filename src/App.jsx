@@ -1,16 +1,12 @@
-import CounterProvider from "./components/contexts/CounterContext";
-import Counter from "./components/features/Counter/Counter";
-
-
+import "./App.css";
+import Home from "./components/features/Home/Home";
 
 function App() {
-  return(
-   <>
-     <CounterProvider>
-     <Counter />
-     </CounterProvider>
-   </>
+  return (
+    <div className="App">
+        <Home/>
+    </div>
   );
-};
-export default App
+}
 
+export default App;

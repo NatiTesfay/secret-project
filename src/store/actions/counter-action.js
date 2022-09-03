@@ -1,4 +1,3 @@
-import { UP_ACTION,DOWN_ACTION,RESTART_COUNTER,MULTIPLY_COUNTER,UPDATE_COUNTER } from '../actions/counter-types'
 
 export const upAction = ()=>{
     return{type:UP_ACTION};

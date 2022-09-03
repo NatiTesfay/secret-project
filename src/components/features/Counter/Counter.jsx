@@ -8,9 +8,7 @@ import {
   updateAction,
   randomEquationAction,
 } from "../../../store/actions/counter_actions";
-
-// ChildContextProvider
-// let startState=0;
+import { COUNTERCONTEXT } from "../../../contexts/CounterCounter/";
 
 function Counter() {
   const { count, dispatch } = useContext(counterContext);
